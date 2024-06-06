@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <center>   <h1 style="font-family:fantasy">CLICK ME TO CHANGE THE BELOW PARAGRAPH</h1>
+    <p style="font-size:20px; font-weight: bolder;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ducimus laborum dolor incidunt numquam quaerat provident, culpa inventore nisi voluptatem reprehenderit odio magni delectus dignissimos aliquid recusandae tenetur quis iure!</p>
+</center>
+<center>
+<h2>RULE</h2>
+<h3>SINGLE  CLICK TO CHANGE COLOUR</h3>
+<h3>DOUBLE CLICK TO CHANGE TO ORIGINAL COLOUR</h3>
+</center>
+<script>
+    
+      var a=document.getElementsByTagName("h1")
+        a[0].addEventListener("click",cal)
+        function cal() {
+            var b=document.getElementsByTagName("p")
+            b[0].style.color="gold"
+        }
+        a[0].addEventListener("dblclick",call)
+      function call() {
+        var c=document.getElementsByTagName("p")
+            c[0].style.color="black"
+
+      }
+
+    
+</script>
+</body>
+</html>

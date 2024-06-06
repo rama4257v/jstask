@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <input  type="radio"  name="mahesh babu"  onclick="call1()"/><span style="font-size: xx-large; font-weight: bolder;" onclick="call1()">Triumph</span> <br>
+    <input   type="radio"  name="mahesh babu"  onclick="call2()"/><span style="font-size: xx-large; font-weight: bolder;" onclick="call2()">Kawasaki</span>
+</center>
+    <center><img src="" width=" 500px" height="400px" id="a" > </center>  <br>
+
+
+    <script>
+         var x=document.getElementById("a")
+
+        var y=document.getElementById("b")
+        y.addEventListener("click",call1)
+
+        function call1() {
+            x.setAttribute("src","https://assets.thehansindia.com/h-upload/2021/12/24/1137418-bike.webp")
+        }
+        var z=document.getElementById("c")
+        z.addEventListener("click",call2)
+
+        function call2() {
+        x.setAttribute("src","https://bd.gaadicdn.com/processedimages/kawasaki/kawasaki-ninja-zx-10r/640X309/kawasaki-ninja-zx-10r63198df019f4e.jpg")
+        }
+
+    
+
+
+    </script>
+</body>
+</html>
